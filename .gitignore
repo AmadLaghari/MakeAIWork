@@ -14,3 +14,13 @@ lib64
 etc/
 share/
 log.txt
+env/Scripts/pip.exe
+env/Scripts/pip3.10.exe
+env/Scripts/pip3.exe
+env/Scripts/python.exe
+env/Scripts/pythonw.exe
+env/Scripts/Activate.ps1
+env/Scripts/activate
+env/Scripts/activate.bat
+env/Scripts/deactivate.bat
+.gitignore

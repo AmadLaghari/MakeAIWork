@@ -47,7 +47,7 @@ print(sum(list1 + list2))
 
 # d = list1[0]+list2[0]
 # e = list1[1]+list2[1]
-
+ 
 
 def vector(list1, list2):
     if len(list1) != len(list2):
