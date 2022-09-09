@@ -7,3 +7,7 @@ print ('Even numbers:', even_numbers)
 
 total = sum (even_numbers)
 print ('Total:', total)
+
+Car = ('TESLA', 1000.0,1500 )
+
+print(Car[0])
