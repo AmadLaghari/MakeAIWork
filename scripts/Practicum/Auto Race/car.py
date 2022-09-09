@@ -1,6 +1,6 @@
 import world
 class Car:
-    def __init__(self, name, F, m):
+    def __init__(self, name, m, F):
 
         self.name = name
         self.m = m
@@ -13,18 +13,17 @@ class Car:
         dv = a * dt
         self.v = self.v + dv
 
-        #print("Snelheid: ", self.v)
-        print("Snelheid " + self.name + " " + str(self.v))
+       
+        # print("Snelheid " + self.name + " " + str(self.v))
 
 
 
         dx = self.v * dt
         self.x = self.x + dx
 
-        #print("Afstand: ", self.x)
+      
         print("Afstand " + self.name + " " + str(self.x))
-
-
+        
         
     
 
