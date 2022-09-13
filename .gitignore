@@ -24,3 +24,30 @@ env/Scripts/activate
 env/Scripts/activate.bat
 env/Scripts/deactivate.bat
 .gitignore
+env/Scripts/ipython.exe
+env/Scripts/ipython.exe
+env/Scripts/jupyter-run.exe
+env/Scripts/jupyter-run.exe
+env/Scripts/jupyter-troubleshoot.exe
+env/Scripts/__pycache__/pywin32_testall.cpython-310.pyc
+env/Scripts/ipython.exe
+env/Scripts/ipython3.exe
+env/Scripts/ipython.exe
+env/Scripts/ipython.exe
+scripts/Practicum/Auto Race/__pycache__/world.cpython-310.pyc
+scripts/Practicum/Auto Race/__pycache__/clock.cpython-310.pyc
+scripts/Practicum/Auto Race/__pycache__/car.cpython-310.pyc
+env/Scripts/__pycache__/pywin32_testall.cpython-310.pyc
+env/Scripts/__pycache__/pywin32_postinstall.cpython-310.pyc
+env/Scripts/__pycache__/pywin32_postinstall.cpython-310.pyc
+env/Scripts/pygmentize.exe
+env/Scripts/jupyter.exe
+env/Scripts/jupyter-troubleshoot.exe
+env/Scripts/jupyter-run.exe
+env/Scripts/jupyter-migrate.exe
+env/Scripts/jupyter-kernelspec.exe
+env/Scripts/jupyter-kernel.exe
+env/Scripts/ipython3.exe
+env/Scripts/jupyter-run.exe
+env/Scripts/ipython3.exe
+env/Scripts/jupyter.exe
