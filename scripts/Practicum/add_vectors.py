@@ -69,6 +69,9 @@ def vector(list1, list2):
 
 vector(list1,list2)
 
+
+
+
 #-----------------------------------------------------------------------------
 # - functie
 # def addVectors(v1, v2):
