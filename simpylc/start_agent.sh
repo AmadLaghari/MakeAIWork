@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 cd simulations/car/control_client
-python driving_agent_refac.py
+python driving_agent_refactoring.py
