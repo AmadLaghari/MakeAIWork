@@ -1,27 +1,17 @@
 '''
 ====== Legal notices
-
 Copyright (C) 2013 - 2021 GEATEC engineering
-
 This program is free software.
 You can use, redistribute and/or modify it, but only under the terms stated in the QQuickLicense.
-
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY, without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 See the QQuickLicense for details.
-
 The QQuickLicense can be accessed at: http://www.qquick.org/license.html
-
 __________________________________________________________________________
-
-
  THIS PROGRAM IS FUNDAMENTALLY UNSUITABLE FOR CONTROLLING REAL SYSTEMS !!
-
 __________________________________________________________________________
-
 It is meant for training purposes only.
-
 Removing this header ends your license.
 '''
 
@@ -33,14 +23,20 @@ import os
 import socket as sc
 import tensorflow as tf
 import numpy as np
+import inspect
+
 
 ss.path +=  [os.path.abspath (relPath) for relPath in  ('..',)] 
 
 import socket_wrapper as sw
 import parameters as pm
 
-model_sonar_path = r'C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Sonar/model_sonar'
-model_lidar_path = r'C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Lidar/model_lidar'
+# dirname = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
+
+model_sonar_path = r'./Opdracht/AI/Sonar/model_sonar'
+model_lidar_path = r'./Opdracht/AI/Lidar/model_lidar'
+
+
 
 
 class DrivingAgent:
@@ -143,5 +139,5 @@ class DrivingAgent:
     #         self.logLidarTraining ()
     #     else:
     #         self.logSonarTraining ()
-
 DrivingAgent ()
+

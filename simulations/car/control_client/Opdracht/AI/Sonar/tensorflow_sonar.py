@@ -5,8 +5,8 @@ from matplotlib import pyplot
 import tensorflow as tf
 from tensorflow import keras
 
-dataframe = pd.read_csv('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Sonar/sonar.samples', header = None, sep = ' ')
-dataframe.to_csv('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Sonar/sonar.samples', header = None, index=False)
+dataframe = pd.read_csv('simulations/car/control_client/Opdracht/AI/Sonar/sonar.samples', header = None, sep = ' ')
+dataframe.to_csv('simulations/car/control_client/Opdracht/AI/Sonar/sonar.samples', header = None, index=False)
 #print (np.array(dataframe))
 #print (df.shape)
 
@@ -52,7 +52,7 @@ metrics=[
 model.fit(arr_distances, arr_steering, epochs=100)
 
 # opslaan van model
-model.save('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Sonar/model_sonar')
+model.save('simulations/car/control_client/Opdracht/AI/Sonar/model_sonar')
 
 # (functie evaluate) Validation om de data te controleren dat het overeenkomt met de resultaat (testset)
 test_loss, test_acc = model.evaluate(val_arr_distances,  val_arr_steering, verbose=2)

@@ -5,8 +5,8 @@ from matplotlib import pyplot
 import tensorflow as tf
 from tensorflow import keras
 
-dataframe = pd.read_csv('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Lidar/lidar.samples', header = None, sep = ' ')
-dataframe.to_csv('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Lidar/lidar.samples', header = None, index=False)
+dataframe = pd.read_csv('simulations/car/control_client/Opdracht/AI/Lidar/lidar.samples', header = None, sep = ' ')
+dataframe.to_csv('simulations/car/control_client/Opdracht/AI/Lidar/lidar.samples', header = None, index=False)
 #print (np.array(dataframe))
 #print (df.shape)
  
@@ -51,7 +51,7 @@ print(len(arr_distances[0]))
 model.fit(arr_distances, arr_steering, epochs=300)
 
 # opslaan van model
-model.save('C:/Users/amad_/makeaiwork/simulations/car/control_client/Opdracht/AI/Lidar/model_lidar')
+model.save('simulations/car/control_client/Opdracht/AI/Lidar/model_lidar')
 print(model)
 # (functie evaluate) Validation om de data te controleren dat het overeenkomt met de resultaat (testset)
 test_loss, test_acc = model.evaluate(val_arr_distances,  val_arr_steering, verbose=2)

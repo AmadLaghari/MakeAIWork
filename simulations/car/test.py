@@ -1,3 +1,8 @@
+import inspect
+import os
+dirname = os.path.dirname(os.path.abspath(inspect.stack()[0][1]))
+
+print(dirname)
 # from pynput import keyboard
 
 # def on_press(key):
